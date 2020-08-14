@@ -41,9 +41,7 @@
     "time-formater": "1.0.1",
     "time-stamp": "^2.0.0",
     "winston": "^2.3.1",
-
     "debug": "~2.6.9",
-
     "http-errors": "~1.6.2",
     "jade": "~1.11.0",
     "morgan": "~1.9.0"
@@ -53,6 +51,12 @@
     "babel-plugin-transform-es2015-classes": "^6.24.1",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
     "babel-plugin-transform-export-extensions": "^6.22.0",
+    "cz-conventional-changelog": "^3.2.0",
     "nodemon": "^1.18.6"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
